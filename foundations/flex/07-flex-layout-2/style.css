@@ -53,10 +53,12 @@ a {
 .card {
   display: flex;
   background: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,0.06);
   padding: 16px;
-  max-width: 300px;
+  width: 300px;
   flex: 1 1 300px;
+  border-radius: 4px;
 }
 
 .footer {
@@ -72,10 +74,4 @@ a {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
